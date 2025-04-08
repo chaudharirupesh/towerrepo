@@ -3,7 +3,7 @@
   become: true
   tasks:
     - name: install httpd pkg
-      pkg:
+      package:
         name: httpd
         state: latest
     - name: write apache config file
