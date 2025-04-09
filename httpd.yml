@@ -3,6 +3,6 @@
   become: true
   tasks:
   - name: install httpd pkg
-     yum:
+    yum:
         name: httpd
         state: latest
